@@ -17,6 +17,8 @@
 		0497CC49289617FA00DA7E2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497CC33289617F900DA7E2F /* Persistence.swift */; };
 		0497CC4A289617FA00DA7E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0497CC34289617FA00DA7E2F /* Assets.xcassets */; };
 		0497CC4B289617FA00DA7E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0497CC34289617FA00DA7E2F /* Assets.xcassets */; };
+		0497CC5528961B3F00DA7E2F /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497CC5428961B3F00DA7E2F /* Diary.swift */; };
+		0497CC5628961B3F00DA7E2F /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497CC5428961B3F00DA7E2F /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		0497CC39289617FA00DA7E2F /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0497CC3F289617FA00DA7E2F /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0497CC41289617FA00DA7E2F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0497CC5428961B3F00DA7E2F /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				0497CC31289617F900DA7E2F /* DiaryApp.swift */,
-				0497CC32289617F900DA7E2F /* ContentView.swift */,
 				0497CC33289617F900DA7E2F /* Persistence.swift */,
+				0497CC5928961B5E00DA7E2F /* Views */,
+				0497CC5828961B5400DA7E2F /* ViewModels */,
+				0497CC5728961B4600DA7E2F /* Models */,
 				0497CC34289617FA00DA7E2F /* Assets.xcassets */,
 				0497CC2F289617F900DA7E2F /* Diary.xcdatamodeld */,
 			);
@@ -84,6 +89,29 @@
 				0497CC41289617FA00DA7E2F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		0497CC5728961B4600DA7E2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0497CC5428961B3F00DA7E2F /* Diary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0497CC5828961B5400DA7E2F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0497CC5928961B5E00DA7E2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0497CC32289617F900DA7E2F /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0497CC42289617FA00DA7E2F /* Diary.xcdatamodeld in Sources */,
+				0497CC5528961B3F00DA7E2F /* Diary.swift in Sources */,
 				0497CC48289617FA00DA7E2F /* Persistence.swift in Sources */,
 				0497CC44289617FA00DA7E2F /* DiaryApp.swift in Sources */,
 				0497CC46289617FA00DA7E2F /* ContentView.swift in Sources */,
@@ -196,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0497CC43289617FA00DA7E2F /* Diary.xcdatamodeld in Sources */,
+				0497CC5628961B3F00DA7E2F /* Diary.swift in Sources */,
 				0497CC49289617FA00DA7E2F /* Persistence.swift in Sources */,
 				0497CC45289617FA00DA7E2F /* DiaryApp.swift in Sources */,
 				0497CC47289617FA00DA7E2F /* ContentView.swift in Sources */,
